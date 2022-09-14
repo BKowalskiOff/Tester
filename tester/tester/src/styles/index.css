@@ -1,0 +1,110 @@
+:root {
+    --main-color-blue: #1F1D49;
+}
+
+body {
+    /* BACKGROUND */
+    background-color: var(--main-color-blue); 
+    /* CONTENT */
+    font-family: 'Mulish', Helvetica, Arial, Lucida, sans-serif;
+}
+
+* {
+    border-color: transparent;
+}
+
+/* 
+================
+    HEADER 
+================
+*/
+
+.app-header {
+    position: sticky;
+    top: 10px;
+
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.app-logo_container {
+    position: relative;
+    
+    background-color: var(--main-color-blue);
+    width: 100%;
+    margin: 5px 0 10px 0;
+    
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #fff;
+    
+    text-align: center;
+}
+
+.app-logo_container img {
+    width: 5%;
+    padding: 20px;
+}
+
+
+/* 
+====================
+    MAIN CONTAINER 
+====================        
+*/
+
+.app-test_container {
+    background-color: var(--main-color-blue);
+    width: 100%;
+    
+    margin: 10px 0 5px 0;
+    padding: 50px 0;
+    
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #fff;
+   
+    text-align: center;
+    color: #fff;
+}
+
+.app-test_container p {
+    font-size: 1.5em;
+
+    margin: 0;
+    padding: 20px;
+}
+
+/* 
+====================
+    FOOTER 
+====================        
+*/
+
+.app-footer {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+/* 
+====================
+    SCROLLBAR 
+====================        
+*/
+
+::-webkit-scrollbar {
+    top: 10px;
+    width: 18px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    top: 10px;
+}
+
+::-webkit-scrollbar-button {
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--main-color-blue);
+    border-radius: 10px;
+    box-shadow: inset 0 0 8px #fff;
+}

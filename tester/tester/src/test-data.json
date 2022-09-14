@@ -1,0 +1,25 @@
+{
+    "topic": "MATH",
+    "time" : 0.3,
+    "questions" : 
+        [ 
+            {
+                "question": "2 + 2 = ",
+                "options": ["2","5","4","-1"],
+                "correctAnswer": "4",
+                "points": 1
+            },
+            {
+                "question": "2 * 5 = ",
+                "options": ["2","10","25"],
+                "correctAnswer": "10",
+                "points": 2
+            },
+            {
+                "question": "100 - 10 = ",
+                "options": ["0","100","90","-100", "-90"],
+                "correctAnswer": "90",
+                "points": 1
+            }
+        ]
+}

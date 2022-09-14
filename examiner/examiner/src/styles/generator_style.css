@@ -1,0 +1,117 @@
+.app-generator_container {
+    /* BACKGROUND */
+    background-color: var(--main-color-blue);
+    width: 100%;
+    margin: 10px auto 10px auto;
+    /* BORDER */
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #fff;
+    /* CONTENT */
+    text-align: center;
+    color: #fff;
+    padding: 50px 0 50px 0;
+}
+
+ .generator_wrapper {
+    width: fit-content;
+    min-width: 40%;
+    margin: 0 auto 0 auto;
+    background-color: var(--main-color-blue);
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #fff;
+    text-align: center;
+    padding: 30px;
+}
+.generator_wrapper>p {
+    font-size: 1.3em;
+}
+
+.app-generator_container .generator_wrapper form {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.app-generator_container .generator_wrapper form label{
+    margin: 20px 30px 0 0;
+    padding: 5px;
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.app-generator_container .generator_wrapper form input,
+.app-generator_container .generator_wrapper form select,
+.app-generator_container .generator_wrapper form option{
+    background-color: #fff;
+    border-radius: 5px;
+    border-bottom: 5px;
+    box-shadow: inset 0 0 10px var(--main-color-blue);
+    border-style: none;
+    color: #000;
+    font-size: 1.1em;
+}
+
+
+.app-generator_container form .reset-submit {
+    margin: 10px auto auto auto;
+    padding: 10px;
+    min-width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-generator_container form .reset-submit *{
+    padding: 10px 25px;
+    font-size: 1.2em;
+
+}
+
+.generator_wrapper form input[type=submit], 
+.generator_wrapper form input[type=reset] {
+    cursor: pointer;
+}
+
+.app-generator_container form *{
+    width:fit-content;
+    margin: 5px 0 10px 0;
+    padding: 5px;
+    color: #000;
+    font-size: 0.6em;
+}
+
+.generator-url {
+    width: fit-content;
+    height: fit-content;
+    margin: 10px auto 0 auto;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px var(--main-color-blue);
+    color: #000;
+}
+
+.generator-url>p{
+    margin: 0;
+}
+
+.generator-url p:nth-child(1) {
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+}
+
+.generator-url p:nth-child(2) {
+    font-size: 1em;
+    padding: 5px;
+    margin: 5px auto 0 auto;
+    cursor: pointer;
+}
